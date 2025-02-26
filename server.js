@@ -126,7 +126,7 @@ const db = require('./db');
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
-
+const PORT = process.env
 
 const MenuItem = require('./models/MenuItem')
 
